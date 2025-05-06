@@ -1,0 +1,109 @@
+
+.cabeza{
+    .cabeza__logo{
+    background-image: url(../assets/Noelstore.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 2px;
+    border: 2px solid #000000;
+    }
+
+    .cabeza__logo h1{
+        text-align: center;
+        font-size: 5em;
+
+    }
+
+    .cabeza__enlace{
+        background-color:#B6D9FE;
+        margin: 5px;
+    }
+
+    .cabeza__enlace ul{
+        @include flex-center;
+        list-style: none;
+        margin: 0  ;
+        padding: 0;
+
+    }
+
+    .cabeza__enlace ul li a{
+        color: $primary-color;
+        text-decoration: none;
+        padding: 15px 20px;
+        display: block;
+    }
+}
+
+
+.padre__caja{
+    width: 300px;
+    height: 900px;
+    background-color: #CCD5AE;
+    text-align: center;
+    line-height: 100px;
+    border: 2px solid #0000ff;
+    margin: 10px;
+
+    li{
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: #ff0000;
+    }
+    
+}
+
+.boton{
+    @include button-style;
+}
+
+.container{
+    margin: 5px;
+
+    iframe{
+        width: 100%;
+        border: 0;
+    }
+}
+
+
+.contacto{
+    background-color: $second-color;
+    padding: 20px;
+
+    h2{
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    p{
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    label{
+        display: block;
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+
+    textarea{
+        width: 100%;
+        padding: 10px;
+        font-size: 1em;
+        border: 1px solid $second-color;
+    }
+
+    button{
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        font-size: 1em;
+    }
+}
+

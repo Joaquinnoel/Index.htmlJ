@@ -1,0 +1,20 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin button-style {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #00000033;
+}
+
+@mixin flex-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
