@@ -1,7 +1,7 @@
 
 .cabeza{
     .cabeza__logo{
-    background-image: url(../assets/Noelstore.jpg);
+    background-image: url(../assets/LogoN.jpg);
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -12,6 +12,9 @@
     .cabeza__logo h1{
         text-align: center;
         font-size: 5em;
+        display: block;
+        margin-top: 210px;
+        color: rosybrown;
 
     }
 
