@@ -11,6 +11,8 @@
     border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 5px #00000033;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 @mixin flex-evenly{
