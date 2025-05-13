@@ -1,5 +1,12 @@
 @media (max-width: 768px) {
 
+    .cabeza__logo h1{
+        text-align: center;
+        font-size: 2em;
+        display: block;
+        color: rosybrown;
+    }
+
     .padre{
         flex-direction: column;
     }
@@ -26,6 +33,13 @@
 
 
 @media (max-width: 480px ){
+
+    .cabeza__logo h1{
+        text-align: center;
+        font-size: 1em;
+        display: block;
+        color: rosybrown;
+    }
 
     .cabeza{
         width: 100%;
