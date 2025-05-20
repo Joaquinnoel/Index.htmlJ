@@ -1,7 +1,7 @@
-@import  'variables';
-@import  'mixins';
+@import  './base/variables';
+@import  './base/mixins';
 @import 'layouts';
-@import 'base';
-@import  'component';
-@import 'animations';
-@import 'responsive';
+@import './base/base';
+@import  './components/component';
+@import './efects/animations';
+@import './base/responsive';

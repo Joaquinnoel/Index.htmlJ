@@ -14,12 +14,13 @@
 .armado{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin: 5px;
+    gap: 2rem;
+    background-color: #fff;
+    padding: 2rem;
 
     .armado__info{
         background-color: $second-color;
-        
+        ;
         text-align: center;
 
     }
@@ -33,7 +34,6 @@
     }
 
 }
-
 
 .foo{
     margin-top: 40px;

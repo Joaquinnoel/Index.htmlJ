@@ -87,18 +87,25 @@
 .padre__caja {
   width: 300px;
   height: 900px;
-  background-color: #CCD5AE;
+  background-color: #f0f0e8;
   text-align: center;
   line-height: 100px;
   border: 2px solid #0000ff;
-  margin: 10px;
+  margin: 2rem;
+  padding: 1em;
+  border-radius: 8px;
+}
+.padre__caja ul {
+  list-style: disc;
+  padding-left: 1.2rem;
 }
 .padre__caja li {
   list-style: none;
+  margin-bottom: 0.5rem;
 }
 .padre__caja a {
   text-decoration: none;
-  color: #ff0000;
+  color: #444;
 }
 
 .boton {
